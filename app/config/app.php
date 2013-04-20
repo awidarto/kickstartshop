@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'b4kj2RwrjEFWO6JECanK7urlkhe82est',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -112,6 +112,12 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
+		'MongoAuth\MongoAuthServiceProvider',
+		'MongoAuth\Reminders\ReminderServiceProvider',
+		'LMongo\LMongoServiceProvider',
+		'Former\FormerServiceProvider',
+
 
 	),
 
