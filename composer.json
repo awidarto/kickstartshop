@@ -26,8 +26,12 @@
 		"post-update-cmd": "php artisan optimize"
 	},
 	"config": {
+<<<<<<< HEAD
 		"process-timeout": 5000,
 		"github-protocols": ["https", "git",  "http"]
+=======
+		"preferred-install": "dist"
+>>>>>>> b042d46bfea30e97669047f8390534f9a3766417
 	},
 	"minimum-stability": "dev"
 }
