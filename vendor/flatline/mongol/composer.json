@@ -1,0 +1,23 @@
+{
+    "name": "flatline/mongol",
+    "description": "MongoDB library and Auth driver for Laravel 4",
+    "keywords": ["laravel", "auth", "mongodb", "mongo", "driver"],
+    "homepage": "http://github.com/xFlatlinex/laravel-mongol",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Longo",
+            "email": "luciano.longo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Flatline": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
