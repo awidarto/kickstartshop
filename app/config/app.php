@@ -116,6 +116,8 @@ return array(
 		'MongoAuth\MongoAuthServiceProvider',
 		'MongoAuth\Reminders\ReminderServiceProvider',
 		'LMongo\LMongoServiceProvider',
+		//'Flatline\Mongol\MongolServiceProvider',
+		//'Mongovel\MongovelServiceProvider',
 		'Former\FormerServiceProvider',
 
 
@@ -183,6 +185,13 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+
+		//additional aliases
+		'LMongo'          => 'LMongo\Facades\LMongo',
+		'EloquentMongo'   => 'LMongo\Eloquent\Model',
+		//'Mongol'		  => 'Flatline\Mongol\Mongol',
+		//'MongovelModel'   => 'Mongovel\Model',
+		'Former' 		  => 'Former\Facades\Illuminate',
 
 	),
 
