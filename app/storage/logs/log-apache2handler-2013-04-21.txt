@@ -1,0 +1,71 @@
+[2013-04-21 16:58:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 16:58:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 16:58:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 16:58:54] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "home" as such route does not exist.' in /Library/WebServer/Documents/kickstartshop/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(191): Symfony\Component\Routing\Generator\UrlGenerator->generate('home', Array, true)
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php(110): Illuminate\Routing\UrlGenerator->route('home', Array)
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(166): Illuminate\Routing\Redirector->route('home')
+#3 /Library/WebServer/Documents/kickstartshop/app/routes.php(31): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#4 /Library/WebServer/Documents/kickstartshop/app/routes.php(31): Illuminate\Support\Facades\Redirect::route('home')
+#5 [internal function]: {closure}()
+#6 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(958): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-04-21 17:00:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 17:00:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 17:00:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-04-21 17:00:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1330
+Stack trace:
+#0 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(992): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Routing/Router.php(956): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(490): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Library/WebServer/Documents/kickstartshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(473): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Library/WebServer/Documents/kickstartshop/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

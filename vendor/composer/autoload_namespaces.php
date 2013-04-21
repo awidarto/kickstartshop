@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Whoops' => $vendorDir . '/filp/whoops/src',
+    'Way\\Generators' => $vendorDir . '/way/generators/src',
     'Underscore' => $vendorDir . '/anahkiasen/underscore-php/src',
     'Toddish\\Verify' => $vendorDir . '/toddish/verify/src',
     'Symfony\\Component\\Translation\\' => $vendorDir . '/symfony/translation',
@@ -22,11 +23,13 @@ return array(
     'Symfony\\Component\\CssSelector\\' => $vendorDir . '/symfony/css-selector',
     'Symfony\\Component\\Console\\' => $vendorDir . '/symfony/console',
     'Symfony\\Component\\BrowserKit\\' => $vendorDir . '/symfony/browser-kit',
+    'Rtablada\\DaisGenerator' => $vendorDir . '/rtablada/dais-generator/src',
     'Psr\\Log\\' => $vendorDir . '/psr/log',
     'Predis' => $vendorDir . '/predis/predis/lib',
     'Patchwork' => $vendorDir . '/patchwork/utf8/class',
     'PHPParser' => $vendorDir . '/nikic/php-parser/lib',
     'Normalizer' => $vendorDir . '/patchwork/utf8/class',
+    'Mustache' => $vendorDir . '/mustache/mustache/src',
     'Monolog' => $vendorDir . '/monolog/monolog/src',
     'Mongovel' => $vendorDir . '/julien-c/mongovel/src',
     'MongoAuth' => $vendorDir . '/navruzm/laravel-mongo-auth/src',
@@ -46,4 +49,5 @@ return array(
     'Doctrine\\Common\\' => $vendorDir . '/doctrine/common/lib',
     'Curl' => $vendorDir . '/laravel/curl/libraries',
     'ClassPreloader' => $vendorDir . '/classpreloader/classpreloader/src',
+    'Carbon' => $vendorDir . '/nesbot/carbon',
 );
