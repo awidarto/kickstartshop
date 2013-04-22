@@ -11,7 +11,6 @@
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', array('as'=>'home', function()
 {
 	return View::make('home');
@@ -67,9 +66,3 @@ Route::get('logout', array('as' => 'logout', function () {
         ->with('flash_notice', 'You are successfully logged out.');
 
 }))->before('auth');
-=======
-Route::get('/', function()
-{
-	return View::make('hello');
-});
->>>>>>> b042d46bfea30e97669047f8390534f9a3766417
